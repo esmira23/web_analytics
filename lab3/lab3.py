@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 
 def auth_params():
     client_id = input("[>] client id: ") 
-    client_secret = input("[>] client secret]: ") 
+    client_secret = input("[>] client secret: ") 
     user_agent = input("[>] user agent: ")
     return client_id, client_secret, user_agent
 
